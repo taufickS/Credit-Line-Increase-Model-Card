@@ -47,7 +47,29 @@ Columns used as inputs in the final model:<br>
 - 'BILL_AMT5', 'BILL_AMT6', 'PAY_AMT1', 'PAY_AMT2', 'PAY_AMT3', 'PAY_AMT4', 'PAY_AMT5', 'PAY_AMT6'<br>
 - Column(s) used as target(s) in the final model: 'DELINQ_NEXT'<br>
 
-Type of model: Decision Tree
+# Type of model: Decision Tree<br>
 - Software used to implement the model: Python, scikit-learn
 - Version of the modeling software: 0.22.2.post1
 
+# Model details<br>
+Columns used as inputs in the final mode:<br>
+- 'LIMIT_BAL', 'SEX', 'RACE', 'EDUCATION', 'MARRIAGE', 'AGE',<br>
+- 'PAY_0', 'PAY_2', 'PAY_3', 'PAY_4', 'PAY_5', 'PAY_6', 'BILL_AMT1',<br>
+- 'BILL_AMT2', 'BILL_AMT3', 'BILL_AMT4', 'BILL_AMT5', 'BILL_AMT6', <br>
+- 'PAY_AMT1', 'PAY_AMT2', 'PAY_AMT3', 'PAY_AMT4', 'PAY_AMT5',<br>
+- 'PAY_AMT6'<br>
+
+Columns used as targets:<br>
+- 'DELINQ_NEXT'’<br>
+
+Type of model:<br>
+- Decision Tree Model<br>
+
+Software used to implement model:<br>
+- Python and sk learn<br>
+
+Version of modeling software: <br>
+- (Python) Version 3.7.12<br>
+
+Hyperparameters:<br>
+- max_depth=6, random_state=12345

@@ -73,3 +73,22 @@ Version of modeling software: <br>
 
 Hyperparameters:<br>
 - max_depth=6, random_state=12345
+
+
+Model Results:
+
+- depth = 6 was a good choice for a final model
+
+- Training AUC: 0.78
+
+- Validation AUC: 0.75
+
+- Test AUC: 0.74
+
+- Asian-to-White AIR: 1.00
+
+- Black-to-White AIR: 0.85
+
+- Female-to-Male AIR: 1.02
+
+- Hispanic-to-White AIR: 0.83
